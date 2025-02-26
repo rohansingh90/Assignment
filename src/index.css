@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .dark {
+    background-color: black;
+    color: white;
+
+  }
+  
+
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
